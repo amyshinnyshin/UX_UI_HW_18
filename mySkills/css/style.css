@@ -1,0 +1,50 @@
+body {
+    font-family: 'Mukta Malar', sans-serif;
+}
+/* Navigation CSS */
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 1%;
+    position: sticky;
+}
+#navBar h1 {
+    width: 50%;
+    font-weight: bolder;
+    padding-left: 5%;
+}
+h1 {
+    font: 'Apentura';
+    font-weight: bold;
+    font-size: 40px;
+    color: #546C9E;
+}
+#navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 1%;
+    right: auto;
+}
+h2 {
+    font: 'Apentura';
+    font-size: 40px;
+    text-align: center;
+}
+/* Grid CSS */
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    width: 33%
+}
+/* Footer CSS */
+footer {
+    background-color: #373738; 
+    padding: 5%;
+    position: bottom;
+ }
+ #footer p {
+     text-align: left;
+     color: white;
+ }

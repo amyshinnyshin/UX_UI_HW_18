@@ -1,0 +1,75 @@
+body {
+    font-family: 'Mukta Malar', sans-serif;
+}
+/* Navigation CSS */
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 1%;
+    position: sticky;
+}
+#navBar h1 {
+    width: 50%;
+    font-weight: bolder;
+    padding-left: 5%;
+}
+h1 {
+    font: 'Apentura';
+    font-weight: bold;
+    font-size: 40px;
+    color: #546C9E;
+}
+#navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 1%;
+    right: auto;
+}
+h2 {
+    font: 'Apentura';
+    font-size: 40px;
+    text-align: center;
+}
+/* Grid CSS */
+.workGrid {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 650px;
+    height: 70vh;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "item1 item2" 
+    "item3 item4";
+    padding: 1%;
+    float: center;
+    position: center;
+}
+#item1 {
+    grid-area: item1;
+}
+#item2 {
+    grid-area: item2;
+}
+#item3 {
+    grid-area: item3;
+}
+#item4 {
+    grid-area: item4;
+}
+h3 {
+    font: 'Apentura';
+    text-align: center;
+}
+/* Footer CSS */
+footer {
+    background-color: #373738; 
+    padding: 5%;
+    position: bottom;
+ }
+ #footer p {
+     text-align: left;
+     color: white;
+ }
