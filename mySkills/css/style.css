@@ -2,49 +2,142 @@ body {
     font-family: 'Mukta Malar', sans-serif;
 }
 /* Navigation CSS */
-#navBar {
-    display: flex;
-    flex-direction: row;
-    margin: 0px 1%;
-    position: sticky;
-}
-#navBar h1 {
-    width: 50%;
-    font-weight: bolder;
-    padding-left: 5%;
-}
+ul {
+    list-style-type: none;
+    margin: 0px 5%;
+    padding-top: 4%;
+    padding-right: 4%;
+    padding-left: 4%;
+    overflow: hidden;
+  }
+
+#menu {
+    float: left;
+  }
+#brand {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Neufreit';
+    font-size: 36px;
+    color: #000000;;
+  }
+/*My Work Section Constructed using CSS Grid*/
+/* Bio CSS */
 h1 {
-    font: 'Apentura';
-    font-weight: bold;
-    font-size: 40px;
-    color: #546C9E;
+    margin: 0px 5%;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    font-family: 'Neufreit';
+    font-size: 175px;
+    color: black;
 }
-#navigation {
+.about {
+    padding-bottom: 2%;
+    line-height: 185px;
+    margin-bottom: 5px;
+    margin-right: 5%;
+}
+.summary {
+    font-family: 'Spartan';
+    font-size: 28px;
+    line-height: 36px;
+    margin: 0px 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(61, 61, 61);
+    font-weight: 250;
+}
+.bio {
+    font-family: 'Spartan';
+    font-size: 22px;
+    line-height: 38px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(61, 61, 61);
+    font-weight: 250;
+}
+.UI {
+    font-family: 'Spartan';
+    font-size: 28px;
+    line-height: 36px;
+    color: rgb(61, 61, 61);
+    font-weight: 700;
+}
+hr {
+    width:80%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-top: 1px black solid;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+/* Skills Cards CSS */
+.skills-group {
     display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-right: 1%;
-    right: auto;
+    margin-right: 12%;
+    margin-left: 12%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+}
+.UXskill {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 33%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color: white;
 }
 h2 {
-    font: 'Apentura';
-    font-size: 40px;
+    font-family: 'Spartan';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 750;
+}
+.text {
+    font-family: 'Lato';
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    font-weight: 300;
     text-align: center;
 }
-/* Grid CSS */
-.flexContainer {
-    display: flex;
-    flex-direction: row;
-    width: 33%
-}
 /* Footer CSS */
-footer {
-    background-color: #373738; 
-    padding: 5%;
-    position: bottom;
+.footer {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    padding-left: 72%;
+    display: grid;
+    grid-template-columns: 2fr .5fr .5fr .5fr;
+    grid-template-rows: 20px 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
  }
- #footer p {
-     text-align: left;
-     color: white;
+ .grid-item p {
+     text-align: right;
+     color: #363636;
+     font-family: 'Spartan';
+     font-size: 16px;
+ }
+ 
+ .grid-item {
+   padding: 15px;
+   justify-self: flex-start;
  }

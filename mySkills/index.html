@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>My Skills</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Nav HTML -->
     <header>
-        <nav id="navBar">
-            <h1 id="logo">AMY SHIN</h1>
-            <div id="navigation">
-                <p>HOME</p>
-                <p>ABOUT</p>
-                <p>WORK</p>
-                <p>PLAY</p>
-                <p>CONTACT</p>
-            </div>
+        <nav>
+            <ul>
+                <li id="menu"><a href="#menuImg"><img src="images/menu.jpg" height="20">menu</a></li>
+                <li id="brand"><a href="#brandImg"><img src="images/brand.png" height="175"></a></li>
+            </ul>
         </nav>
     </header>
-    <section class="mySkills">
-        <h2>My UX Skills</h2>
-        <div class="flexContainer">
-            <div>
-                <img>
-                <h3></h3>
-                <p></p>
-            </div>
-            <div>
-                <img>
-                <h3></h3>
-                <p></p>
-            </div>
-            <div>
-                <img>
-                <h3></h3>
-                <p></p>
-            </div>
-        </div>
+    <!-- About HTML -->
+    <section class="about">
+        <h1>about.</h1>
+        <p class="summary"><span class="UI">Hi, I'm Amy Shin!</span> I'm a UI/UX Designer.</p>
+        <p class="bio">I specialize in design, user research and programming. I enjoy solving user problems and creating meaningful experiences through design. My skills include tools–Figma, Invision, Adobe Xd, Photoshop, Invision, Affinity Design and approaches–Interaction/Visual Design, User Research, Usability Testing.</p>
     </section>
+    <hr>
+    <!-- Skills HTML -->
+    <section class="skills">
+        <div class="skills-group">
+            <div class="UXskill">
+              <img class="card-img-top" src="images/userResearch.png" width="100">
+              <div class="skill-body">
+                <h2 class="title">USER RESEARCH</h5>
+                <p class="text">Used Google Forms and email campaigns as well as 1:1 interviews to gather quantitative and qualitative data to solve user problems
+                </p>
+              </div>
+            </div>
+            <div class="UXskill">
+              <img class="card-img-top" src="images/userEmpathy.png" width="100">
+              <div class="skill-body">
+                <h2 class="title">USER EMPATHY</h5>
+                <p class="text">Created Affinity Maps, User Journey and Scenario, User Persona using Miro & Figma  to empathize with the user</p>
+              </div>
+            </div>
+            <div class="UXskill">
+              <img class="card-img-top" src="images/prototype.png" width="100">
+              <div class="cskill-body">
+                <h2 class="title">PROTOTYPING</h5>
+                <p class="text">Used Figma, Adobe Suite-Xd, Photoshop & Illustrator and Invision to wireframe, prototype and test multiple projects
+                </p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- footer HTML -->
     <footer>
-        <div id="footer">
-            <p>ABOUT</p>
-            <p>WORK</p>
-            <p>PLAY</p>
-            <p>CONTACT</p>
+        <div class="footer">
+          <div class="grid-item">
+            <p>STAY CONNECTED</p>
+          </div>
+          <a href="#facebook" class="grid-item"><img src="images/facebook.png" height="35"></a>
+          <a href="#instagram" class="grid-item"><img src="images/instagram.png" height="35"></a>  
+          <a href="#linkedin" class="grid-item"><img src="images/linkedin.png" height="35"></div>
         </div>
     </footer>
 </body>
